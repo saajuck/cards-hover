@@ -8,8 +8,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
      <source id="sourceWebm" src="" type="video/webm" id="source">
 
     </video>
-    <p id="txt"></p>
-    <p id="videoTime"></p>
 `
 
 setup()
