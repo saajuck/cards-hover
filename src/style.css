@@ -21,9 +21,22 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  gap: 100px
 }
+
+@media (min-width: 1000px) { 
+  .card-container {
+    top: 50%;
+    transform: translateY(-50%);  
+  }
+}
+
+@media (max-width: 1000px) { 
+  .card-container {
+    margin-top: 100px
+  }
+}
+
 
 .card-container  li {
   width: 200px;
