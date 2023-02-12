@@ -1,5 +1,5 @@
 
-const calcAngleDegrees = (x:number, y:number) => Math.atan2(y, x) * 180 / Math.PI;
+// const calcAngleDegrees = (x:number, y:number) => Math.atan2(y, x) * 180 / Math.PI;
 
   
 export const setup = () => {
